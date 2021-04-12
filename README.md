@@ -9,4 +9,4 @@
 
 ## We've both recently been cooperating on an extremely work-in-progress minigame server with support for Java AND Bedrock players with [GeyserMC](https://geysermc.org/)
 ![Example of the main lobby](https://github.com/JonahKC/minecraft-showcase/blob/7b9aab14bebf9589f536e01a1521cfe0e46b506d/2021-04-11_21.56.58.png)
-![particle trails]()
+![particle trails](https://github.com/JonahKC/minecraft-showcase/blob/7b9aab14bebf9589f536e01a1521cfe0e46b506d/2021-04-11_21.58.41.png)
