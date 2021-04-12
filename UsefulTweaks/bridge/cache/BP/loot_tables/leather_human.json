@@ -1,0 +1,406 @@
+{
+	"file_path": "C:\\Users\\nebye\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Useful Tweaks\\loot_tables\\leather_human.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "bf89d4e8_9b83_4617_a834_5ffa8663b402",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"pools": [
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"name": "minecraft:leather",
+									"weight": 1,
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 0,
+												"max": 2
+											}
+										},
+										{
+											"function": "set_name",
+											"name": "§r§fDigested Flesh"
+										},
+										{
+											"function": "set_lore",
+											"lore": [
+												"§r§8Originally From a Human..."
+											]
+										},
+										{
+											"function": "looting_enchant",
+											"count": {
+												"min": 1,
+												"max": 2
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				"key": "pools",
+				"children": [
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "minecraft:leather",
+										"weight": 1,
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 0,
+													"max": 2
+												}
+											},
+											{
+												"function": "set_name",
+												"name": "§r§fDigested Flesh"
+											},
+											{
+												"function": "set_lore",
+												"lore": [
+													"§r§8Originally From a Human..."
+												]
+											},
+											{
+												"function": "looting_enchant",
+												"count": {
+													"min": 1,
+													"max": 2
+												}
+											}
+										]
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"name": "minecraft:leather",
+											"weight": 1,
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 0,
+														"max": 2
+													}
+												},
+												{
+													"function": "set_name",
+													"name": "§r§fDigested Flesh"
+												},
+												{
+													"function": "set_lore",
+													"lore": [
+														"§r§8Originally From a Human..."
+													]
+												},
+												{
+													"function": "looting_enchant",
+													"count": {
+														"min": 1,
+														"max": 2
+													}
+												}
+											]
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "minecraft:leather",
+												"weight": 1,
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 0,
+															"max": 2
+														}
+													},
+													{
+														"function": "set_name",
+														"name": "§r§fDigested Flesh"
+													},
+													{
+														"function": "set_lore",
+														"lore": [
+															"§r§8Originally From a Human..."
+														]
+													},
+													{
+														"function": "looting_enchant",
+														"count": {
+															"min": 1,
+															"max": 2
+														}
+													}
+												]
+											}
+										],
+										"children": [
+											{
+												"data": "item",
+												"key": "type"
+											},
+											{
+												"data": "minecraft:leather",
+												"key": "name"
+											},
+											{
+												"data": "1",
+												"key": "weight"
+											},
+											{
+												"open": {
+													"type": "item",
+													"name": "minecraft:leather",
+													"weight": 1,
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 0,
+																"max": 2
+															}
+														},
+														{
+															"function": "set_name",
+															"name": "§r§fDigested Flesh"
+														},
+														{
+															"function": "set_lore",
+															"lore": [
+																"§r§8Originally From a Human..."
+															]
+														},
+														{
+															"function": "looting_enchant",
+															"count": {
+																"min": 1,
+																"max": 2
+															}
+														}
+													]
+												},
+												"key": "functions",
+												"children": [
+													{
+														"open": [
+															{
+																"function": "set_count",
+																"count": {
+																	"min": 0,
+																	"max": 2
+																}
+															},
+															{
+																"function": "set_name",
+																"name": "§r§fDigested Flesh"
+															},
+															{
+																"function": "set_lore",
+																"lore": [
+																	"§r§8Originally From a Human..."
+																]
+															},
+															{
+																"function": "looting_enchant",
+																"count": {
+																	"min": 1,
+																	"max": 2
+																}
+															}
+														],
+														"children": [
+															{
+																"data": "set_count",
+																"key": "function"
+															},
+															{
+																"open": {
+																	"function": "set_count",
+																	"count": {
+																		"min": 0,
+																		"max": 2
+																	}
+																},
+																"key": "count",
+																"is_minified": true,
+																"children": {
+																	"min": 0,
+																	"max": 2
+																}
+															}
+														]
+													},
+													{
+														"open": [
+															{
+																"function": "set_count",
+																"count": {
+																	"min": 0,
+																	"max": 2
+																}
+															},
+															{
+																"function": "set_name",
+																"name": "§r§fDigested Flesh"
+															},
+															{
+																"function": "set_lore",
+																"lore": [
+																	"§r§8Originally From a Human..."
+																]
+															},
+															{
+																"function": "looting_enchant",
+																"count": {
+																	"min": 1,
+																	"max": 2
+																}
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"function": "set_name",
+															"name": "§r§fDigested Flesh"
+														}
+													},
+													{
+														"open": [
+															{
+																"function": "set_count",
+																"count": {
+																	"min": 0,
+																	"max": 2
+																}
+															},
+															{
+																"function": "set_name",
+																"name": "§r§fDigested Flesh"
+															},
+															{
+																"function": "set_lore",
+																"lore": [
+																	"§r§8Originally From a Human..."
+																]
+															},
+															{
+																"function": "looting_enchant",
+																"count": {
+																	"min": 1,
+																	"max": 2
+																}
+															}
+														],
+														"children": [
+															{
+																"data": "set_lore",
+																"key": "function"
+															},
+															{
+																"open": {
+																	"function": "set_lore",
+																	"lore": [
+																		"§r§8Originally From a Human..."
+																	]
+																},
+																"key": "lore",
+																"is_minified": true,
+																"children": [
+																	"§r§8Originally From a Human..."
+																]
+															}
+														]
+													},
+													{
+														"open": [
+															{
+																"function": "set_count",
+																"count": {
+																	"min": 0,
+																	"max": 2
+																}
+															},
+															{
+																"function": "set_name",
+																"name": "§r§fDigested Flesh"
+															},
+															{
+																"function": "set_lore",
+																"lore": [
+																	"§r§8Originally From a Human..."
+																]
+															},
+															{
+																"function": "looting_enchant",
+																"count": {
+																	"min": 1,
+																	"max": 2
+																}
+															}
+														],
+														"children": [
+															{
+																"data": "looting_enchant",
+																"key": "function"
+															},
+															{
+																"open": {
+																	"function": "looting_enchant",
+																	"count": {
+																		"min": 1,
+																		"max": 2
+																	}
+																},
+																"key": "count",
+																"is_minified": true,
+																"children": {
+																	"min": 1,
+																	"max": 2
+																}
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

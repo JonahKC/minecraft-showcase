@@ -1,0 +1,21 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "tnp:signed_items",
+			"is_summonable": true,
+			"is_spawnable": true
+		},
+		"component_groups": {},
+		"components": {
+			"minecraft:health": {
+				"value": 0
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/items_signed.json"
+			}
+		},
+		"events": {}
+	}
+}

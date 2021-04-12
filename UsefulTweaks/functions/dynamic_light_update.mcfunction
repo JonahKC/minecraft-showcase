@@ -1,0 +1,36 @@
+#bridge-file-version: #43
+execute @a[tag=light8] ~ ~ ~ fill ~-25 ~-4 ~-25 ~25 ~6 ~25 air 0 replace light_block
+execute @a[tag=light8] ~ ~ ~ setblock ~ ~ ~ light_block 12 keep
+execute @a[tag=light8] ~ ~ ~ setblock ~ ~1 ~ light_block 13 keep
+execute @a[tag=light8] ~ ~ ~ setblock ~ ~2 ~ light_block 14 keep
+execute @a[tag=light8] ~ ~ ~ setblock ~ ~3 ~ light_block 15 keep
+execute @a[tag=light8] ~ ~ ~ setblock ~1 ~2 ~ light_block 14 keep
+execute @a[tag=light8] ~ ~ ~ setblock ~-1 ~2 ~ light_block 14 keep
+execute @a[tag=light8] ~ ~ ~ setblock ~ ~2 ~1 light_block 14 keep
+execute @a[tag=light8] ~ ~ ~ setblock ~ ~2 ~-1 light_block 14 keep
+execute @a[tag=light8] ~ ~ ~ setblock ~1 ~ ~ light_block 12 keep
+execute @a[tag=light8] ~ ~ ~ setblock ~-1 ~ ~ light_block 12 keep
+execute @a[tag=light8] ~ ~ ~ setblock ~ ~ ~1 light_block 12 keep
+execute @a[tag=light8] ~ ~ ~ setblock ~ ~ ~-1 light_block 12 keep
+execute @a[tag=light8] ~ ~ ~ setblock ~1 ~1 ~ light_block 13 keep
+execute @a[tag=light8] ~ ~ ~ setblock ~-1 ~1 ~ light_block 13 keep
+execute @a[tag=light8] ~ ~ ~ setblock ~ ~1 ~1 light_block 13 keep
+execute @a[tag=light8] ~ ~ ~ setblock ~ ~1 ~-1 light_block 13 keep
+ 
+execute @a[tag=light12] ~ ~ ~ fill ~-25 ~-4 ~-25 ~25 ~6 ~25 air 0 replace light_block
+execute @a[tag=light12] ~ ~ ~ setblock ~ ~ ~ light_block 12 keep
+execute @a[tag=light12] ~ ~ ~ setblock ~ ~1 ~ light_block 13 keep
+execute @a[tag=light12] ~ ~ ~ setblock ~ ~2 ~ light_block 14 keep
+execute @a[tag=light12] ~ ~ ~ setblock ~ ~3 ~ light_block 15 keep
+execute @a[tag=light12] ~ ~ ~ setblock ~1 ~2 ~ light_block 14 keep
+execute @a[tag=light12] ~ ~ ~ setblock ~-1 ~2 ~ light_block 14 keep
+execute @a[tag=light12] ~ ~ ~ setblock ~ ~2 ~1 light_block 14 keep
+execute @a[tag=light12] ~ ~ ~ setblock ~ ~2 ~-1 light_block 14 keep
+execute @a[tag=light12] ~ ~ ~ setblock ~1 ~ ~ light_block 12 keep
+execute @a[tag=light12] ~ ~ ~ setblock ~-1 ~ ~ light_block 12 keep
+execute @a[tag=light12] ~ ~ ~ setblock ~ ~ ~1 light_block 12 keep
+execute @a[tag=light12] ~ ~ ~ setblock ~ ~ ~-1 light_block 12 keep
+execute @a[tag=light12] ~ ~ ~ setblock ~1 ~1 ~ light_block 13 keep
+execute @a[tag=light12] ~ ~ ~ setblock ~-1 ~1 ~ light_block 13 keep
+execute @a[tag=light12] ~ ~ ~ setblock ~ ~1 ~1 light_block 13 keep
+execute @a[tag=light12] ~ ~ ~ setblock ~ ~1 ~-1 light_block 13 keep

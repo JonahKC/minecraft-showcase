@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: communalrewards
+Specification-Vendor: examplemodsareus
+Specification-Version: 1
+Implementation-Title: CommunalRewards
+Implementation-Version: 1.16.4-2021.1r1
+Implementation-Vendor: examplemodsareus
+Implementation-Timestamp: 2021-01-25T21:23:24-0800
+

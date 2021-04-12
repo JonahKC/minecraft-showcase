@@ -1,0 +1,134 @@
+//bridge-file-version: #135
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.custom_death": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"emote": "query.is_emoting && !query.is_alive"
+						},
+						{
+							"lag": "!query.is_alive && query.delta_time > 0.1"
+						},
+						{
+							"fire": "!query.is_alive && query.is_on_fire"
+						},
+						{
+							"drown": "!query.is_alive && query.is_in_water"
+						},
+						{
+							"hoe": "query.skin_id == 1 && !query.is_alive"
+						},
+						{
+							"fall": "!query.is_alive && !query.is_on_ground;"
+						},
+						{
+							"sneaky": "!query.is_alive && query.is_sneaking"
+						},
+						{
+							"sprinty": "query.is_sprinting && !query.is_alive"
+						},
+						{
+							"player": "query.last_hit_by_player && !query.is_alive"
+						},
+						{
+							"fall": "!query.is_on_ground && !query.is_alive"
+						}
+					]
+				},
+				"fire": {
+					"on_entry": [
+						"/say §eBathing in lava is not how you get clean @s ...§f"
+					],
+					"transitions": [
+						{
+							"default": "query.is_alive"
+						}
+					]
+				},
+				"drown": {
+					"on_entry": [
+						"/say §eIf you just practice enough @s , maybe you'll grow gills...§f"
+					],
+					"transitions": [
+						{
+							"default": "query.is_alive"
+						}
+					]
+				},
+				"fall": {
+					"on_entry": [
+						"/say §eI think you've forgotten your elytra, @s §f"
+					],
+					"transitions": [
+						{
+							"default": "query.is_alive"
+						}
+					]
+				},
+				"emote": {
+					"on_entry": [
+						"/say §eGot a little distracted there, @s ..."
+					],
+					"transitions": [
+						{
+							"default": "query.is_alive"
+						}
+					]
+				},
+				"hoe": {
+					"on_entry": [
+						"/say §e @s was with their trusty hoe 'till the last second."
+					],
+					"transitions": [
+						{
+							"default": "query.is_alive"
+						}
+					]
+				},
+				"lag": {
+					"on_entry": [
+						"/say §e @s died due to §l§oLAAAAG§r§e...§f"
+					],
+					"transitions": [
+						{
+							"default": "query.is_alive"
+						}
+					]
+				},
+				"sneaky": {
+					"on_entry": [
+						"/say §e @s was trying to be sneaky, and failed. Horendously."
+					],
+					"transitions": [
+						{
+							"default": "query.is_alive"
+						}
+					]
+				},
+				"sprinty": {
+					"on_entry": [
+						"/say §e @s was on the run, but didn't make it..."
+					],
+					"transitions": [
+						{
+							"default": "query.is_alive"
+						}
+					]
+				},
+				"player": {
+					"on_entry": [
+						"/say §e @s was brutally murdered by @s[rm=1, c=1]"
+					],
+					"transitions": [
+						{
+							"default": "query.is_alive"
+						}
+					]
+				}
+			}
+		}
+	}
+}

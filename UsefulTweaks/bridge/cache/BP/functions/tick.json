@@ -1,0 +1,25 @@
+{
+	"file_path": "C:\\Users\\nebye\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Useful Tweaks\\functions\\tick.json",
+	"file_type": "function_tick",
+	"format_version": 1,
+	"file_uuid": "f233922a_82e8_4b74_a079_6c4cfc9f4406",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"values": [
+						"dynamic_light_update",
+						"item_light_torch"
+					]
+				},
+				"key": "values",
+				"is_minified": true,
+				"children": [
+					"dynamic_light_update",
+					"item_light_torch"
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,128 @@
+{
+	"file_path": "C:\\Users\\nebye\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Useful Tweaks/entities/sign_items.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "5ac4c4a8_d796_4e2a_93cc_f2311056090f",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "tnp:signed_items",
+							"is_summonable": true,
+							"is_spawnable": true
+						},
+						"component_groups": {},
+						"components": {
+							"minecraft:health": {
+								"value": 0
+							},
+							"minecraft:loot": {
+								"table": "loot_tables/items_signed.json"
+							}
+						},
+						"events": {}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "tnp:signed_items",
+								"is_summonable": true,
+								"is_spawnable": true
+							},
+							"component_groups": {},
+							"components": {
+								"minecraft:health": {
+									"value": 0
+								},
+								"minecraft:loot": {
+									"table": "loot_tables/items_signed.json"
+								}
+							},
+							"events": {}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "tnp:signed_items",
+							"is_summonable": true,
+							"is_spawnable": true
+						}
+					},
+					{
+						"key": "component_groups",
+						"is_minified": true,
+						"children": {}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "tnp:signed_items",
+								"is_summonable": true,
+								"is_spawnable": true
+							},
+							"component_groups": {},
+							"components": {
+								"minecraft:health": {
+									"value": 0
+								},
+								"minecraft:loot": {
+									"table": "loot_tables/items_signed.json"
+								}
+							},
+							"events": {}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:health": {
+										"value": 0
+									},
+									"minecraft:loot": {
+										"table": "loot_tables/items_signed.json"
+									}
+								},
+								"key": "minecraft:health",
+								"is_minified": true,
+								"children": {
+									"value": 0
+								}
+							},
+							{
+								"open": {
+									"minecraft:health": {
+										"value": 0
+									},
+									"minecraft:loot": {
+										"table": "loot_tables/items_signed.json"
+									}
+								},
+								"key": "minecraft:loot",
+								"is_minified": true,
+								"children": {
+									"table": "loot_tables/items_signed.json"
+								}
+							}
+						]
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {}
+					}
+				]
+			}
+		]
+	}
+}

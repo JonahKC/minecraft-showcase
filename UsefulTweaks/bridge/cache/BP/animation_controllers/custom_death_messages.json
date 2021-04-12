@@ -1,0 +1,2489 @@
+{
+	"file_path": "C:\\Users\\nebye\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Useful Tweaks\\animation_controllers\\custom_death_messages.json",
+	"file_type": "animation_controller",
+	"format_version": 1,
+	"file_uuid": "e1c443fa_957e_4b7f_a573_c1be151f04a9",
+	"file_version": 135,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animation_controllers": {
+						"controller.animation.custom_death": {
+							"states": {
+								"default": {
+									"transitions": [
+										{
+											"emote": "query.is_emoting && !query.is_alive"
+										},
+										{
+											"lag": "!query.is_alive && query.delta_time > 0.1"
+										},
+										{
+											"fire": "!query.is_alive && query.is_on_fire"
+										},
+										{
+											"drown": "!query.is_alive && query.is_in_water"
+										},
+										{
+											"hoe": "query.skin_id == 1 && !query.is_alive"
+										},
+										{
+											"fall": "!query.is_alive && !query.is_on_ground;"
+										},
+										{
+											"sneaky": "!query.is_alive && query.is_sneaking"
+										},
+										{
+											"sprinty": "query.is_sprinting && !query.is_alive"
+										},
+										{
+											"player": "query.last_hit_by_player && !query.is_alive"
+										},
+										{
+											"fall": "!query.is_on_ground && !query.is_alive"
+										}
+									]
+								},
+								"fire": {
+									"on_entry": [
+										"/say §eBathing in lava is not how you get clean @s ...§f"
+									],
+									"transitions": [
+										{
+											"default": "query.is_alive"
+										}
+									]
+								},
+								"drown": {
+									"on_entry": [
+										"/say §eIf you just practice enough @s , maybe you'll grow gills...§f"
+									],
+									"transitions": [
+										{
+											"default": "query.is_alive"
+										}
+									]
+								},
+								"fall": {
+									"on_entry": [
+										"/say §eI think you've forgotten your elytra, @s §f"
+									],
+									"transitions": [
+										{
+											"default": "query.is_alive"
+										}
+									]
+								},
+								"emote": {
+									"on_entry": [
+										"/say §eGot a little distracted there, @s ..."
+									],
+									"transitions": [
+										{
+											"default": "query.is_alive"
+										}
+									]
+								},
+								"hoe": {
+									"on_entry": [
+										"/say §ewas with their trusty hoe 'till the last second."
+									],
+									"transitions": [
+										{
+											"default": "query.is_alive"
+										}
+									]
+								},
+								"lag": {
+									"on_entry": [
+										"/say §edied  due to §l§oLAAAAG§r§e..."
+									],
+									"transitions": [
+										{
+											"default": "query.is_alive"
+										}
+									]
+								},
+								"sneaky": {
+									"on_entry": [
+										"/say §ewas trying to be sneaky, and failed. Horendously."
+									],
+									"transitions": [
+										{
+											"default": "query.is_alive"
+										}
+									]
+								},
+								"sprinty": {
+									"on_entry": [
+										"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas on the run, but didn't make it...\"}]}"
+									],
+									"transitions": [
+										{
+											"default": "query.is_alive"
+										}
+									]
+								},
+								"player": {
+									"on_entry": [
+										"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas brutally murdered by @p[rm=1, c=1]\"}]}",
+										"/tellraw @a {\"rawtext\":[{\"text\":\"\"}]}"
+									],
+									"transitions": [
+										{
+											"default": "query.is_alive"
+										}
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "animation_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.animation.custom_death": {
+								"states": {
+									"default": {
+										"transitions": [
+											{
+												"emote": "query.is_emoting && !query.is_alive"
+											},
+											{
+												"lag": "!query.is_alive && query.delta_time > 0.1"
+											},
+											{
+												"fire": "!query.is_alive && query.is_on_fire"
+											},
+											{
+												"drown": "!query.is_alive && query.is_in_water"
+											},
+											{
+												"hoe": "query.skin_id == 1 && !query.is_alive"
+											},
+											{
+												"fall": "!query.is_alive && !query.is_on_ground;"
+											},
+											{
+												"sneaky": "!query.is_alive && query.is_sneaking"
+											},
+											{
+												"sprinty": "query.is_sprinting && !query.is_alive"
+											},
+											{
+												"player": "query.last_hit_by_player && !query.is_alive"
+											},
+											{
+												"fall": "!query.is_on_ground && !query.is_alive"
+											}
+										]
+									},
+									"fire": {
+										"on_entry": [
+											"/say §eBathing in lava is not how you get clean @s ...§f"
+										],
+										"transitions": [
+											{
+												"default": "query.is_alive"
+											}
+										]
+									},
+									"drown": {
+										"on_entry": [
+											"/say §eIf you just practice enough @s , maybe you'll grow gills...§f"
+										],
+										"transitions": [
+											{
+												"default": "query.is_alive"
+											}
+										]
+									},
+									"fall": {
+										"on_entry": [
+											"/say §eI think you've forgotten your elytra, @s §f"
+										],
+										"transitions": [
+											{
+												"default": "query.is_alive"
+											}
+										]
+									},
+									"emote": {
+										"on_entry": [
+											"/say §eGot a little distracted there, @s ..."
+										],
+										"transitions": [
+											{
+												"default": "query.is_alive"
+											}
+										]
+									},
+									"hoe": {
+										"on_entry": [
+											"/say §ewas with their trusty hoe 'till the last second."
+										],
+										"transitions": [
+											{
+												"default": "query.is_alive"
+											}
+										]
+									},
+									"lag": {
+										"on_entry": [
+											"/say §edied  due to §l§oLAAAAG§r§e..."
+										],
+										"transitions": [
+											{
+												"default": "query.is_alive"
+											}
+										]
+									},
+									"sneaky": {
+										"on_entry": [
+											"/say §ewas trying to be sneaky, and failed. Horendously."
+										],
+										"transitions": [
+											{
+												"default": "query.is_alive"
+											}
+										]
+									},
+									"sprinty": {
+										"on_entry": [
+											"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas on the run, but didn't make it...\"}]}"
+										],
+										"transitions": [
+											{
+												"default": "query.is_alive"
+											}
+										]
+									},
+									"player": {
+										"on_entry": [
+											"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas brutally murdered by @p[rm=1, c=1]\"}]}",
+											"/tellraw @a {\"rawtext\":[{\"text\":\"\"}]}"
+										],
+										"transitions": [
+											{
+												"default": "query.is_alive"
+											}
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.animation.custom_death",
+						"children": [
+							{
+								"open": {
+									"states": {
+										"default": {
+											"transitions": [
+												{
+													"emote": "query.is_emoting && !query.is_alive"
+												},
+												{
+													"lag": "!query.is_alive && query.delta_time > 0.1"
+												},
+												{
+													"fire": "!query.is_alive && query.is_on_fire"
+												},
+												{
+													"drown": "!query.is_alive && query.is_in_water"
+												},
+												{
+													"hoe": "query.skin_id == 1 && !query.is_alive"
+												},
+												{
+													"fall": "!query.is_alive && !query.is_on_ground;"
+												},
+												{
+													"sneaky": "!query.is_alive && query.is_sneaking"
+												},
+												{
+													"sprinty": "query.is_sprinting && !query.is_alive"
+												},
+												{
+													"player": "query.last_hit_by_player && !query.is_alive"
+												},
+												{
+													"fall": "!query.is_on_ground && !query.is_alive"
+												}
+											]
+										},
+										"fire": {
+											"on_entry": [
+												"/say §eBathing in lava is not how you get clean @s ...§f"
+											],
+											"transitions": [
+												{
+													"default": "query.is_alive"
+												}
+											]
+										},
+										"drown": {
+											"on_entry": [
+												"/say §eIf you just practice enough @s , maybe you'll grow gills...§f"
+											],
+											"transitions": [
+												{
+													"default": "query.is_alive"
+												}
+											]
+										},
+										"fall": {
+											"on_entry": [
+												"/say §eI think you've forgotten your elytra, @s §f"
+											],
+											"transitions": [
+												{
+													"default": "query.is_alive"
+												}
+											]
+										},
+										"emote": {
+											"on_entry": [
+												"/say §eGot a little distracted there, @s ..."
+											],
+											"transitions": [
+												{
+													"default": "query.is_alive"
+												}
+											]
+										},
+										"hoe": {
+											"on_entry": [
+												"/say §ewas with their trusty hoe 'till the last second."
+											],
+											"transitions": [
+												{
+													"default": "query.is_alive"
+												}
+											]
+										},
+										"lag": {
+											"on_entry": [
+												"/say §edied  due to §l§oLAAAAG§r§e..."
+											],
+											"transitions": [
+												{
+													"default": "query.is_alive"
+												}
+											]
+										},
+										"sneaky": {
+											"on_entry": [
+												"/say §ewas trying to be sneaky, and failed. Horendously."
+											],
+											"transitions": [
+												{
+													"default": "query.is_alive"
+												}
+											]
+										},
+										"sprinty": {
+											"on_entry": [
+												"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas on the run, but didn't make it...\"}]}"
+											],
+											"transitions": [
+												{
+													"default": "query.is_alive"
+												}
+											]
+										},
+										"player": {
+											"on_entry": [
+												"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas brutally murdered by @p[rm=1, c=1]\"}]}",
+												"/tellraw @a {\"rawtext\":[{\"text\":\"\"}]}"
+											],
+											"transitions": [
+												{
+													"default": "query.is_alive"
+												}
+											]
+										}
+									}
+								},
+								"key": "states",
+								"children": [
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"emote": "query.is_emoting && !query.is_alive"
+													},
+													{
+														"lag": "!query.is_alive && query.delta_time > 0.1"
+													},
+													{
+														"fire": "!query.is_alive && query.is_on_fire"
+													},
+													{
+														"drown": "!query.is_alive && query.is_in_water"
+													},
+													{
+														"hoe": "query.skin_id == 1 && !query.is_alive"
+													},
+													{
+														"fall": "!query.is_alive && !query.is_on_ground;"
+													},
+													{
+														"sneaky": "!query.is_alive && query.is_sneaking"
+													},
+													{
+														"sprinty": "query.is_sprinting && !query.is_alive"
+													},
+													{
+														"player": "query.last_hit_by_player && !query.is_alive"
+													},
+													{
+														"fall": "!query.is_on_ground && !query.is_alive"
+													}
+												]
+											},
+											"fire": {
+												"on_entry": [
+													"/say §eBathing in lava is not how you get clean @s ...§f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"drown": {
+												"on_entry": [
+													"/say §eIf you just practice enough @s , maybe you'll grow gills...§f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"fall": {
+												"on_entry": [
+													"/say §eI think you've forgotten your elytra, @s §f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"emote": {
+												"on_entry": [
+													"/say §eGot a little distracted there, @s ..."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"hoe": {
+												"on_entry": [
+													"/say §ewas with their trusty hoe 'till the last second."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"lag": {
+												"on_entry": [
+													"/say §edied  due to §l§oLAAAAG§r§e..."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"sneaky": {
+												"on_entry": [
+													"/say §ewas trying to be sneaky, and failed. Horendously."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"sprinty": {
+												"on_entry": [
+													"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas on the run, but didn't make it...\"}]}"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"player": {
+												"on_entry": [
+													"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas brutally murdered by @p[rm=1, c=1]\"}]}",
+													"/tellraw @a {\"rawtext\":[{\"text\":\"\"}]}"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											}
+										},
+										"key": "default",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"emote": "query.is_emoting && !query.is_alive"
+														},
+														{
+															"lag": "!query.is_alive && query.delta_time > 0.1"
+														},
+														{
+															"fire": "!query.is_alive && query.is_on_fire"
+														},
+														{
+															"drown": "!query.is_alive && query.is_in_water"
+														},
+														{
+															"hoe": "query.skin_id == 1 && !query.is_alive"
+														},
+														{
+															"fall": "!query.is_alive && !query.is_on_ground;"
+														},
+														{
+															"sneaky": "!query.is_alive && query.is_sneaking"
+														},
+														{
+															"sprinty": "query.is_sprinting && !query.is_alive"
+														},
+														{
+															"player": "query.last_hit_by_player && !query.is_alive"
+														},
+														{
+															"fall": "!query.is_on_ground && !query.is_alive"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"emote": "query.is_emoting && !query.is_alive"
+															},
+															{
+																"lag": "!query.is_alive && query.delta_time > 0.1"
+															},
+															{
+																"fire": "!query.is_alive && query.is_on_fire"
+															},
+															{
+																"drown": "!query.is_alive && query.is_in_water"
+															},
+															{
+																"hoe": "query.skin_id == 1 && !query.is_alive"
+															},
+															{
+																"fall": "!query.is_alive && !query.is_on_ground;"
+															},
+															{
+																"sneaky": "!query.is_alive && query.is_sneaking"
+															},
+															{
+																"sprinty": "query.is_sprinting && !query.is_alive"
+															},
+															{
+																"player": "query.last_hit_by_player && !query.is_alive"
+															},
+															{
+																"fall": "!query.is_on_ground && !query.is_alive"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"emote": "query.is_emoting && !query.is_alive"
+														}
+													},
+													{
+														"open": [
+															{
+																"emote": "query.is_emoting && !query.is_alive"
+															},
+															{
+																"lag": "!query.is_alive && query.delta_time > 0.1"
+															},
+															{
+																"fire": "!query.is_alive && query.is_on_fire"
+															},
+															{
+																"drown": "!query.is_alive && query.is_in_water"
+															},
+															{
+																"hoe": "query.skin_id == 1 && !query.is_alive"
+															},
+															{
+																"fall": "!query.is_alive && !query.is_on_ground;"
+															},
+															{
+																"sneaky": "!query.is_alive && query.is_sneaking"
+															},
+															{
+																"sprinty": "query.is_sprinting && !query.is_alive"
+															},
+															{
+																"player": "query.last_hit_by_player && !query.is_alive"
+															},
+															{
+																"fall": "!query.is_on_ground && !query.is_alive"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"lag": "!query.is_alive && query.delta_time > 0.1"
+														}
+													},
+													{
+														"open": [
+															{
+																"emote": "query.is_emoting && !query.is_alive"
+															},
+															{
+																"lag": "!query.is_alive && query.delta_time > 0.1"
+															},
+															{
+																"fire": "!query.is_alive && query.is_on_fire"
+															},
+															{
+																"drown": "!query.is_alive && query.is_in_water"
+															},
+															{
+																"hoe": "query.skin_id == 1 && !query.is_alive"
+															},
+															{
+																"fall": "!query.is_alive && !query.is_on_ground;"
+															},
+															{
+																"sneaky": "!query.is_alive && query.is_sneaking"
+															},
+															{
+																"sprinty": "query.is_sprinting && !query.is_alive"
+															},
+															{
+																"player": "query.last_hit_by_player && !query.is_alive"
+															},
+															{
+																"fall": "!query.is_on_ground && !query.is_alive"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"fire": "!query.is_alive && query.is_on_fire"
+														}
+													},
+													{
+														"open": [
+															{
+																"emote": "query.is_emoting && !query.is_alive"
+															},
+															{
+																"lag": "!query.is_alive && query.delta_time > 0.1"
+															},
+															{
+																"fire": "!query.is_alive && query.is_on_fire"
+															},
+															{
+																"drown": "!query.is_alive && query.is_in_water"
+															},
+															{
+																"hoe": "query.skin_id == 1 && !query.is_alive"
+															},
+															{
+																"fall": "!query.is_alive && !query.is_on_ground;"
+															},
+															{
+																"sneaky": "!query.is_alive && query.is_sneaking"
+															},
+															{
+																"sprinty": "query.is_sprinting && !query.is_alive"
+															},
+															{
+																"player": "query.last_hit_by_player && !query.is_alive"
+															},
+															{
+																"fall": "!query.is_on_ground && !query.is_alive"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"drown": "!query.is_alive && query.is_in_water"
+														}
+													},
+													{
+														"open": [
+															{
+																"emote": "query.is_emoting && !query.is_alive"
+															},
+															{
+																"lag": "!query.is_alive && query.delta_time > 0.1"
+															},
+															{
+																"fire": "!query.is_alive && query.is_on_fire"
+															},
+															{
+																"drown": "!query.is_alive && query.is_in_water"
+															},
+															{
+																"hoe": "query.skin_id == 1 && !query.is_alive"
+															},
+															{
+																"fall": "!query.is_alive && !query.is_on_ground;"
+															},
+															{
+																"sneaky": "!query.is_alive && query.is_sneaking"
+															},
+															{
+																"sprinty": "query.is_sprinting && !query.is_alive"
+															},
+															{
+																"player": "query.last_hit_by_player && !query.is_alive"
+															},
+															{
+																"fall": "!query.is_on_ground && !query.is_alive"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"hoe": "query.skin_id == 1 && !query.is_alive"
+														}
+													},
+													{
+														"open": [
+															{
+																"emote": "query.is_emoting && !query.is_alive"
+															},
+															{
+																"lag": "!query.is_alive && query.delta_time > 0.1"
+															},
+															{
+																"fire": "!query.is_alive && query.is_on_fire"
+															},
+															{
+																"drown": "!query.is_alive && query.is_in_water"
+															},
+															{
+																"hoe": "query.skin_id == 1 && !query.is_alive"
+															},
+															{
+																"fall": "!query.is_alive && !query.is_on_ground;"
+															},
+															{
+																"sneaky": "!query.is_alive && query.is_sneaking"
+															},
+															{
+																"sprinty": "query.is_sprinting && !query.is_alive"
+															},
+															{
+																"player": "query.last_hit_by_player && !query.is_alive"
+															},
+															{
+																"fall": "!query.is_on_ground && !query.is_alive"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"fall": "!query.is_alive && !query.is_on_ground;"
+														}
+													},
+													{
+														"open": [
+															{
+																"emote": "query.is_emoting && !query.is_alive"
+															},
+															{
+																"lag": "!query.is_alive && query.delta_time > 0.1"
+															},
+															{
+																"fire": "!query.is_alive && query.is_on_fire"
+															},
+															{
+																"drown": "!query.is_alive && query.is_in_water"
+															},
+															{
+																"hoe": "query.skin_id == 1 && !query.is_alive"
+															},
+															{
+																"fall": "!query.is_alive && !query.is_on_ground;"
+															},
+															{
+																"sneaky": "!query.is_alive && query.is_sneaking"
+															},
+															{
+																"sprinty": "query.is_sprinting && !query.is_alive"
+															},
+															{
+																"player": "query.last_hit_by_player && !query.is_alive"
+															},
+															{
+																"fall": "!query.is_on_ground && !query.is_alive"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"sneaky": "!query.is_alive && query.is_sneaking"
+														}
+													},
+													{
+														"open": [
+															{
+																"emote": "query.is_emoting && !query.is_alive"
+															},
+															{
+																"lag": "!query.is_alive && query.delta_time > 0.1"
+															},
+															{
+																"fire": "!query.is_alive && query.is_on_fire"
+															},
+															{
+																"drown": "!query.is_alive && query.is_in_water"
+															},
+															{
+																"hoe": "query.skin_id == 1 && !query.is_alive"
+															},
+															{
+																"fall": "!query.is_alive && !query.is_on_ground;"
+															},
+															{
+																"sneaky": "!query.is_alive && query.is_sneaking"
+															},
+															{
+																"sprinty": "query.is_sprinting && !query.is_alive"
+															},
+															{
+																"player": "query.last_hit_by_player && !query.is_alive"
+															},
+															{
+																"fall": "!query.is_on_ground && !query.is_alive"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"sprinty": "query.is_sprinting && !query.is_alive"
+														}
+													},
+													{
+														"open": [
+															{
+																"emote": "query.is_emoting && !query.is_alive"
+															},
+															{
+																"lag": "!query.is_alive && query.delta_time > 0.1"
+															},
+															{
+																"fire": "!query.is_alive && query.is_on_fire"
+															},
+															{
+																"drown": "!query.is_alive && query.is_in_water"
+															},
+															{
+																"hoe": "query.skin_id == 1 && !query.is_alive"
+															},
+															{
+																"fall": "!query.is_alive && !query.is_on_ground;"
+															},
+															{
+																"sneaky": "!query.is_alive && query.is_sneaking"
+															},
+															{
+																"sprinty": "query.is_sprinting && !query.is_alive"
+															},
+															{
+																"player": "query.last_hit_by_player && !query.is_alive"
+															},
+															{
+																"fall": "!query.is_on_ground && !query.is_alive"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"player": "query.last_hit_by_player && !query.is_alive"
+														}
+													},
+													{
+														"open": [
+															{
+																"emote": "query.is_emoting && !query.is_alive"
+															},
+															{
+																"lag": "!query.is_alive && query.delta_time > 0.1"
+															},
+															{
+																"fire": "!query.is_alive && query.is_on_fire"
+															},
+															{
+																"drown": "!query.is_alive && query.is_in_water"
+															},
+															{
+																"hoe": "query.skin_id == 1 && !query.is_alive"
+															},
+															{
+																"fall": "!query.is_alive && !query.is_on_ground;"
+															},
+															{
+																"sneaky": "!query.is_alive && query.is_sneaking"
+															},
+															{
+																"sprinty": "query.is_sprinting && !query.is_alive"
+															},
+															{
+																"player": "query.last_hit_by_player && !query.is_alive"
+															},
+															{
+																"fall": "!query.is_on_ground && !query.is_alive"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"fall": "!query.is_on_ground && !query.is_alive"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"emote": "query.is_emoting && !query.is_alive"
+													},
+													{
+														"lag": "!query.is_alive && query.delta_time > 0.1"
+													},
+													{
+														"fire": "!query.is_alive && query.is_on_fire"
+													},
+													{
+														"drown": "!query.is_alive && query.is_in_water"
+													},
+													{
+														"hoe": "query.skin_id == 1 && !query.is_alive"
+													},
+													{
+														"fall": "!query.is_alive && !query.is_on_ground;"
+													},
+													{
+														"sneaky": "!query.is_alive && query.is_sneaking"
+													},
+													{
+														"sprinty": "query.is_sprinting && !query.is_alive"
+													},
+													{
+														"player": "query.last_hit_by_player && !query.is_alive"
+													},
+													{
+														"fall": "!query.is_on_ground && !query.is_alive"
+													}
+												]
+											},
+											"fire": {
+												"on_entry": [
+													"/say §eBathing in lava is not how you get clean @s ...§f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"drown": {
+												"on_entry": [
+													"/say §eIf you just practice enough @s , maybe you'll grow gills...§f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"fall": {
+												"on_entry": [
+													"/say §eI think you've forgotten your elytra, @s §f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"emote": {
+												"on_entry": [
+													"/say §eGot a little distracted there, @s ..."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"hoe": {
+												"on_entry": [
+													"/say §ewas with their trusty hoe 'till the last second."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"lag": {
+												"on_entry": [
+													"/say §edied  due to §l§oLAAAAG§r§e..."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"sneaky": {
+												"on_entry": [
+													"/say §ewas trying to be sneaky, and failed. Horendously."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"sprinty": {
+												"on_entry": [
+													"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas on the run, but didn't make it...\"}]}"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"player": {
+												"on_entry": [
+													"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas brutally murdered by @p[rm=1, c=1]\"}]}",
+													"/tellraw @a {\"rawtext\":[{\"text\":\"\"}]}"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											}
+										},
+										"key": "fire",
+										"children": [
+											{
+												"open": {
+													"on_entry": [
+														"/say §eBathing in lava is not how you get clean @s ...§f"
+													],
+													"transitions": [
+														{
+															"default": "query.is_alive"
+														}
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/say §eBathing in lava is not how you get clean @s ...§f"
+												]
+											},
+											{
+												"open": {
+													"on_entry": [
+														"/say §eBathing in lava is not how you get clean @s ...§f"
+													],
+													"transitions": [
+														{
+															"default": "query.is_alive"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.is_alive"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.is_alive"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"emote": "query.is_emoting && !query.is_alive"
+													},
+													{
+														"lag": "!query.is_alive && query.delta_time > 0.1"
+													},
+													{
+														"fire": "!query.is_alive && query.is_on_fire"
+													},
+													{
+														"drown": "!query.is_alive && query.is_in_water"
+													},
+													{
+														"hoe": "query.skin_id == 1 && !query.is_alive"
+													},
+													{
+														"fall": "!query.is_alive && !query.is_on_ground;"
+													},
+													{
+														"sneaky": "!query.is_alive && query.is_sneaking"
+													},
+													{
+														"sprinty": "query.is_sprinting && !query.is_alive"
+													},
+													{
+														"player": "query.last_hit_by_player && !query.is_alive"
+													},
+													{
+														"fall": "!query.is_on_ground && !query.is_alive"
+													}
+												]
+											},
+											"fire": {
+												"on_entry": [
+													"/say §eBathing in lava is not how you get clean @s ...§f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"drown": {
+												"on_entry": [
+													"/say §eIf you just practice enough @s , maybe you'll grow gills...§f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"fall": {
+												"on_entry": [
+													"/say §eI think you've forgotten your elytra, @s §f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"emote": {
+												"on_entry": [
+													"/say §eGot a little distracted there, @s ..."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"hoe": {
+												"on_entry": [
+													"/say §ewas with their trusty hoe 'till the last second."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"lag": {
+												"on_entry": [
+													"/say §edied  due to §l§oLAAAAG§r§e..."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"sneaky": {
+												"on_entry": [
+													"/say §ewas trying to be sneaky, and failed. Horendously."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"sprinty": {
+												"on_entry": [
+													"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas on the run, but didn't make it...\"}]}"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"player": {
+												"on_entry": [
+													"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas brutally murdered by @p[rm=1, c=1]\"}]}",
+													"/tellraw @a {\"rawtext\":[{\"text\":\"\"}]}"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											}
+										},
+										"key": "drown",
+										"is_minified": true,
+										"children": {
+											"on_entry": [
+												"/say §eIf you just practice enough @s , maybe you'll grow gills...§f"
+											],
+											"transitions": [
+												{
+													"default": "query.is_alive"
+												}
+											]
+										}
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"emote": "query.is_emoting && !query.is_alive"
+													},
+													{
+														"lag": "!query.is_alive && query.delta_time > 0.1"
+													},
+													{
+														"fire": "!query.is_alive && query.is_on_fire"
+													},
+													{
+														"drown": "!query.is_alive && query.is_in_water"
+													},
+													{
+														"hoe": "query.skin_id == 1 && !query.is_alive"
+													},
+													{
+														"fall": "!query.is_alive && !query.is_on_ground;"
+													},
+													{
+														"sneaky": "!query.is_alive && query.is_sneaking"
+													},
+													{
+														"sprinty": "query.is_sprinting && !query.is_alive"
+													},
+													{
+														"player": "query.last_hit_by_player && !query.is_alive"
+													},
+													{
+														"fall": "!query.is_on_ground && !query.is_alive"
+													}
+												]
+											},
+											"fire": {
+												"on_entry": [
+													"/say §eBathing in lava is not how you get clean @s ...§f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"drown": {
+												"on_entry": [
+													"/say §eIf you just practice enough @s , maybe you'll grow gills...§f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"fall": {
+												"on_entry": [
+													"/say §eI think you've forgotten your elytra, @s §f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"emote": {
+												"on_entry": [
+													"/say §eGot a little distracted there, @s ..."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"hoe": {
+												"on_entry": [
+													"/say §ewas with their trusty hoe 'till the last second."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"lag": {
+												"on_entry": [
+													"/say §edied  due to §l§oLAAAAG§r§e..."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"sneaky": {
+												"on_entry": [
+													"/say §ewas trying to be sneaky, and failed. Horendously."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"sprinty": {
+												"on_entry": [
+													"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas on the run, but didn't make it...\"}]}"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"player": {
+												"on_entry": [
+													"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas brutally murdered by @p[rm=1, c=1]\"}]}",
+													"/tellraw @a {\"rawtext\":[{\"text\":\"\"}]}"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											}
+										},
+										"key": "fall",
+										"children": [
+											{
+												"open": {
+													"on_entry": [
+														"/say §eI think you've forgotten your elytra, @s §f"
+													],
+													"transitions": [
+														{
+															"default": "query.is_alive"
+														}
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/say §eI think you've forgotten your elytra, @s §f"
+												]
+											},
+											{
+												"open": {
+													"on_entry": [
+														"/say §eI think you've forgotten your elytra, @s §f"
+													],
+													"transitions": [
+														{
+															"default": "query.is_alive"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.is_alive"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.is_alive"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"emote": "query.is_emoting && !query.is_alive"
+													},
+													{
+														"lag": "!query.is_alive && query.delta_time > 0.1"
+													},
+													{
+														"fire": "!query.is_alive && query.is_on_fire"
+													},
+													{
+														"drown": "!query.is_alive && query.is_in_water"
+													},
+													{
+														"hoe": "query.skin_id == 1 && !query.is_alive"
+													},
+													{
+														"fall": "!query.is_alive && !query.is_on_ground;"
+													},
+													{
+														"sneaky": "!query.is_alive && query.is_sneaking"
+													},
+													{
+														"sprinty": "query.is_sprinting && !query.is_alive"
+													},
+													{
+														"player": "query.last_hit_by_player && !query.is_alive"
+													},
+													{
+														"fall": "!query.is_on_ground && !query.is_alive"
+													}
+												]
+											},
+											"fire": {
+												"on_entry": [
+													"/say §eBathing in lava is not how you get clean @s ...§f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"drown": {
+												"on_entry": [
+													"/say §eIf you just practice enough @s , maybe you'll grow gills...§f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"fall": {
+												"on_entry": [
+													"/say §eI think you've forgotten your elytra, @s §f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"emote": {
+												"on_entry": [
+													"/say §eGot a little distracted there, @s ..."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"hoe": {
+												"on_entry": [
+													"/say §ewas with their trusty hoe 'till the last second."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"lag": {
+												"on_entry": [
+													"/say §edied  due to §l§oLAAAAG§r§e..."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"sneaky": {
+												"on_entry": [
+													"/say §ewas trying to be sneaky, and failed. Horendously."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"sprinty": {
+												"on_entry": [
+													"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas on the run, but didn't make it...\"}]}"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"player": {
+												"on_entry": [
+													"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas brutally murdered by @p[rm=1, c=1]\"}]}",
+													"/tellraw @a {\"rawtext\":[{\"text\":\"\"}]}"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											}
+										},
+										"key": "emote",
+										"children": [
+											{
+												"open": {
+													"on_entry": [
+														"/say §eGot a little distracted there, @s ..."
+													],
+													"transitions": [
+														{
+															"default": "query.is_alive"
+														}
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/say §eGot a little distracted there, @s ..."
+												]
+											},
+											{
+												"open": {
+													"on_entry": [
+														"/say §eGot a little distracted there, @s ..."
+													],
+													"transitions": [
+														{
+															"default": "query.is_alive"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.is_alive"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.is_alive"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"emote": "query.is_emoting && !query.is_alive"
+													},
+													{
+														"lag": "!query.is_alive && query.delta_time > 0.1"
+													},
+													{
+														"fire": "!query.is_alive && query.is_on_fire"
+													},
+													{
+														"drown": "!query.is_alive && query.is_in_water"
+													},
+													{
+														"hoe": "query.skin_id == 1 && !query.is_alive"
+													},
+													{
+														"fall": "!query.is_alive && !query.is_on_ground;"
+													},
+													{
+														"sneaky": "!query.is_alive && query.is_sneaking"
+													},
+													{
+														"sprinty": "query.is_sprinting && !query.is_alive"
+													},
+													{
+														"player": "query.last_hit_by_player && !query.is_alive"
+													},
+													{
+														"fall": "!query.is_on_ground && !query.is_alive"
+													}
+												]
+											},
+											"fire": {
+												"on_entry": [
+													"/say §eBathing in lava is not how you get clean @s ...§f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"drown": {
+												"on_entry": [
+													"/say §eIf you just practice enough @s , maybe you'll grow gills...§f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"fall": {
+												"on_entry": [
+													"/say §eI think you've forgotten your elytra, @s §f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"emote": {
+												"on_entry": [
+													"/say §eGot a little distracted there, @s ..."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"hoe": {
+												"on_entry": [
+													"/say §ewas with their trusty hoe 'till the last second."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"lag": {
+												"on_entry": [
+													"/say §edied  due to §l§oLAAAAG§r§e..."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"sneaky": {
+												"on_entry": [
+													"/say §ewas trying to be sneaky, and failed. Horendously."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"sprinty": {
+												"on_entry": [
+													"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas on the run, but didn't make it...\"}]}"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"player": {
+												"on_entry": [
+													"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas brutally murdered by @p[rm=1, c=1]\"}]}",
+													"/tellraw @a {\"rawtext\":[{\"text\":\"\"}]}"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											}
+										},
+										"key": "hoe",
+										"children": [
+											{
+												"open": {
+													"on_entry": [
+														"/say §ewas with their trusty hoe 'till the last second."
+													],
+													"transitions": [
+														{
+															"default": "query.is_alive"
+														}
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/say §ewas with their trusty hoe 'till the last second."
+												]
+											},
+											{
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.is_alive"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.is_alive"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"emote": "query.is_emoting && !query.is_alive"
+													},
+													{
+														"lag": "!query.is_alive && query.delta_time > 0.1"
+													},
+													{
+														"fire": "!query.is_alive && query.is_on_fire"
+													},
+													{
+														"drown": "!query.is_alive && query.is_in_water"
+													},
+													{
+														"hoe": "query.skin_id == 1 && !query.is_alive"
+													},
+													{
+														"fall": "!query.is_alive && !query.is_on_ground;"
+													},
+													{
+														"sneaky": "!query.is_alive && query.is_sneaking"
+													},
+													{
+														"sprinty": "query.is_sprinting && !query.is_alive"
+													},
+													{
+														"player": "query.last_hit_by_player && !query.is_alive"
+													},
+													{
+														"fall": "!query.is_on_ground && !query.is_alive"
+													}
+												]
+											},
+											"fire": {
+												"on_entry": [
+													"/say §eBathing in lava is not how you get clean @s ...§f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"drown": {
+												"on_entry": [
+													"/say §eIf you just practice enough @s , maybe you'll grow gills...§f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"fall": {
+												"on_entry": [
+													"/say §eI think you've forgotten your elytra, @s §f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"emote": {
+												"on_entry": [
+													"/say §eGot a little distracted there, @s ..."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"hoe": {
+												"on_entry": [
+													"/say §ewas with their trusty hoe 'till the last second."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"lag": {
+												"on_entry": [
+													"/say §edied  due to §l§oLAAAAG§r§e..."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"sneaky": {
+												"on_entry": [
+													"/say §ewas trying to be sneaky, and failed. Horendously."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"sprinty": {
+												"on_entry": [
+													"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas on the run, but didn't make it...\"}]}"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"player": {
+												"on_entry": [
+													"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas brutally murdered by @p[rm=1, c=1]\"}]}",
+													"/tellraw @a {\"rawtext\":[{\"text\":\"\"}]}"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											}
+										},
+										"key": "lag",
+										"children": [
+											{
+												"open": {
+													"on_entry": [
+														"/say §edied  due to §l§oLAAAAG§r§e..."
+													],
+													"transitions": [
+														{
+															"default": "query.is_alive"
+														}
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/say §edied  due to §l§oLAAAAG§r§e..."
+												]
+											},
+											{
+												"open": {
+													"on_entry": [
+														"/say §edied  due to §l§oLAAAAG§r§e..."
+													],
+													"transitions": [
+														{
+															"default": "query.is_alive"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.is_alive"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.is_alive"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"emote": "query.is_emoting && !query.is_alive"
+													},
+													{
+														"lag": "!query.is_alive && query.delta_time > 0.1"
+													},
+													{
+														"fire": "!query.is_alive && query.is_on_fire"
+													},
+													{
+														"drown": "!query.is_alive && query.is_in_water"
+													},
+													{
+														"hoe": "query.skin_id == 1 && !query.is_alive"
+													},
+													{
+														"fall": "!query.is_alive && !query.is_on_ground;"
+													},
+													{
+														"sneaky": "!query.is_alive && query.is_sneaking"
+													},
+													{
+														"sprinty": "query.is_sprinting && !query.is_alive"
+													},
+													{
+														"player": "query.last_hit_by_player && !query.is_alive"
+													},
+													{
+														"fall": "!query.is_on_ground && !query.is_alive"
+													}
+												]
+											},
+											"fire": {
+												"on_entry": [
+													"/say §eBathing in lava is not how you get clean @s ...§f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"drown": {
+												"on_entry": [
+													"/say §eIf you just practice enough @s , maybe you'll grow gills...§f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"fall": {
+												"on_entry": [
+													"/say §eI think you've forgotten your elytra, @s §f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"emote": {
+												"on_entry": [
+													"/say §eGot a little distracted there, @s ..."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"hoe": {
+												"on_entry": [
+													"/say §ewas with their trusty hoe 'till the last second."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"lag": {
+												"on_entry": [
+													"/say §edied  due to §l§oLAAAAG§r§e..."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"sneaky": {
+												"on_entry": [
+													"/say §ewas trying to be sneaky, and failed. Horendously."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"sprinty": {
+												"on_entry": [
+													"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas on the run, but didn't make it...\"}]}"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"player": {
+												"on_entry": [
+													"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas brutally murdered by @p[rm=1, c=1]\"}]}",
+													"/tellraw @a {\"rawtext\":[{\"text\":\"\"}]}"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											}
+										},
+										"key": "sneaky",
+										"children": [
+											{
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/say §ewas trying to be sneaky, and failed. Horendously."
+												]
+											},
+											{
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.is_alive"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.is_alive"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"emote": "query.is_emoting && !query.is_alive"
+													},
+													{
+														"lag": "!query.is_alive && query.delta_time > 0.1"
+													},
+													{
+														"fire": "!query.is_alive && query.is_on_fire"
+													},
+													{
+														"drown": "!query.is_alive && query.is_in_water"
+													},
+													{
+														"hoe": "query.skin_id == 1 && !query.is_alive"
+													},
+													{
+														"fall": "!query.is_alive && !query.is_on_ground;"
+													},
+													{
+														"sneaky": "!query.is_alive && query.is_sneaking"
+													},
+													{
+														"sprinty": "query.is_sprinting && !query.is_alive"
+													},
+													{
+														"player": "query.last_hit_by_player && !query.is_alive"
+													},
+													{
+														"fall": "!query.is_on_ground && !query.is_alive"
+													}
+												]
+											},
+											"fire": {
+												"on_entry": [
+													"/say §eBathing in lava is not how you get clean @s ...§f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"drown": {
+												"on_entry": [
+													"/say §eIf you just practice enough @s , maybe you'll grow gills...§f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"fall": {
+												"on_entry": [
+													"/say §eI think you've forgotten your elytra, @s §f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"emote": {
+												"on_entry": [
+													"/say §eGot a little distracted there, @s ..."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"hoe": {
+												"on_entry": [
+													"/say §ewas with their trusty hoe 'till the last second."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"lag": {
+												"on_entry": [
+													"/say §edied  due to §l§oLAAAAG§r§e..."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"sneaky": {
+												"on_entry": [
+													"/say §ewas trying to be sneaky, and failed. Horendously."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"sprinty": {
+												"on_entry": [
+													"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas on the run, but didn't make it...\"}]}"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"player": {
+												"on_entry": [
+													"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas brutally murdered by @p[rm=1, c=1]\"}]}",
+													"/tellraw @a {\"rawtext\":[{\"text\":\"\"}]}"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											}
+										},
+										"key": "sprinty",
+										"children": [
+											{
+												"open": {
+													"on_entry": [
+														"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas on the run, but didn't make it...\"}]}"
+													],
+													"transitions": [
+														{
+															"default": "query.is_alive"
+														}
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas on the run, but didn't make it...\"}]}"
+												]
+											},
+											{
+												"open": {
+													"on_entry": [
+														"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas on the run, but didn't make it...\"}]}"
+													],
+													"transitions": [
+														{
+															"default": "query.is_alive"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.is_alive"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.is_alive"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"emote": "query.is_emoting && !query.is_alive"
+													},
+													{
+														"lag": "!query.is_alive && query.delta_time > 0.1"
+													},
+													{
+														"fire": "!query.is_alive && query.is_on_fire"
+													},
+													{
+														"drown": "!query.is_alive && query.is_in_water"
+													},
+													{
+														"hoe": "query.skin_id == 1 && !query.is_alive"
+													},
+													{
+														"fall": "!query.is_alive && !query.is_on_ground;"
+													},
+													{
+														"sneaky": "!query.is_alive && query.is_sneaking"
+													},
+													{
+														"sprinty": "query.is_sprinting && !query.is_alive"
+													},
+													{
+														"player": "query.last_hit_by_player && !query.is_alive"
+													},
+													{
+														"fall": "!query.is_on_ground && !query.is_alive"
+													}
+												]
+											},
+											"fire": {
+												"on_entry": [
+													"/say §eBathing in lava is not how you get clean @s ...§f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"drown": {
+												"on_entry": [
+													"/say §eIf you just practice enough @s , maybe you'll grow gills...§f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"fall": {
+												"on_entry": [
+													"/say §eI think you've forgotten your elytra, @s §f"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"emote": {
+												"on_entry": [
+													"/say §eGot a little distracted there, @s ..."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"hoe": {
+												"on_entry": [
+													"/say §ewas with their trusty hoe 'till the last second."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"lag": {
+												"on_entry": [
+													"/say §edied  due to §l§oLAAAAG§r§e..."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"sneaky": {
+												"on_entry": [
+													"/say §ewas trying to be sneaky, and failed. Horendously."
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"sprinty": {
+												"on_entry": [
+													"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas on the run, but didn't make it...\"}]}"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											},
+											"player": {
+												"on_entry": [
+													"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas brutally murdered by @p[rm=1, c=1]\"}]}",
+													"/tellraw @a {\"rawtext\":[{\"text\":\"\"}]}"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											}
+										},
+										"key": "player",
+										"children": [
+											{
+												"open": {
+													"on_entry": [
+														"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas brutally murdered by @p[rm=1, c=1]\"}]}",
+														"/tellraw @a {\"rawtext\":[{\"text\":\"\"}]}"
+													],
+													"transitions": [
+														{
+															"default": "query.is_alive"
+														}
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas brutally murdered by @p[rm=1, c=1]\"}]}",
+													"/tellraw @a {\"rawtext\":[{\"text\":\"\"}]}"
+												]
+											},
+											{
+												"open": {
+													"on_entry": [
+														"/tellraw @a {\"rawtext\":[{\"text\":\"§ewas brutally murdered by @p[rm=1, c=1]\"}]}",
+														"/tellraw @a {\"rawtext\":[{\"text\":\"\"}]}"
+													],
+													"transitions": [
+														{
+															"default": "query.is_alive"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.is_alive"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.is_alive"
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

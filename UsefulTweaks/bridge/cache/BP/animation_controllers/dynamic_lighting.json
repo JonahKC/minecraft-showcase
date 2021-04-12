@@ -1,0 +1,400 @@
+{
+	"file_path": "C:\\Users\\nebye\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Useful Tweaks\\animation_controllers\\dynamic_lighting.json",
+	"file_type": "animation_controller",
+	"format_version": 1,
+	"file_uuid": "9885ca03_6092_4075_acef_b3afb4936db1",
+	"file_version": 32,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animation_controllers": {
+						"controller.animation.light": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"transitions": [
+										{
+											"dead": "!query.is_alive"
+										},
+										{
+											"on_light_12": "query.variant == 1"
+										}
+									]
+								},
+								"on_light_12": {
+									"on_entry": [
+										"/tag @p add light12"
+									],
+									"on_exit": [
+										"/function disable_light"
+									],
+									"transitions": [
+										{
+											"default": "query.variant == 0"
+										}
+									]
+								},
+								"dead": {
+									"on_entry": [
+										"/function disable_light"
+									],
+									"transitions": [
+										{
+											"default": "query.is_alive"
+										}
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "animation_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.animation.light": {
+								"initial_state": "default",
+								"states": {
+									"default": {
+										"transitions": [
+											{
+												"dead": "!query.is_alive"
+											},
+											{
+												"on_light_12": "query.variant == 1"
+											}
+										]
+									},
+									"on_light_12": {
+										"on_entry": [
+											"/tag @p add light12"
+										],
+										"on_exit": [
+											"/function disable_light"
+										],
+										"transitions": [
+											{
+												"default": "query.variant == 0"
+											}
+										]
+									},
+									"dead": {
+										"on_entry": [
+											"/function disable_light"
+										],
+										"transitions": [
+											{
+												"default": "query.is_alive"
+											}
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.animation.light",
+						"children": [
+							{
+								"open": {
+									"initial_state": "default",
+									"states": {
+										"default": {
+											"transitions": [
+												{
+													"dead": "!query.is_alive"
+												},
+												{
+													"on_light_12": "query.variant == 1"
+												}
+											]
+										},
+										"on_light_12": {
+											"on_entry": [
+												"/tag @p add light12"
+											],
+											"on_exit": [
+												"/function disable_light"
+											],
+											"transitions": [
+												{
+													"default": "query.variant == 0"
+												}
+											]
+										},
+										"dead": {
+											"on_entry": [
+												"/function disable_light"
+											],
+											"transitions": [
+												{
+													"default": "query.is_alive"
+												}
+											]
+										}
+									}
+								},
+								"data": "default",
+								"key": "initial_state"
+							},
+							{
+								"open": {
+									"initial_state": "default",
+									"states": {
+										"default": {
+											"transitions": [
+												{
+													"dead": "!query.is_alive"
+												},
+												{
+													"on_light_12": "query.variant == 1"
+												}
+											]
+										},
+										"on_light_12": {
+											"on_entry": [
+												"/tag @p add light12"
+											],
+											"on_exit": [
+												"/function disable_light"
+											],
+											"transitions": [
+												{
+													"default": "query.variant == 0"
+												}
+											]
+										},
+										"dead": {
+											"on_entry": [
+												"/function disable_light"
+											],
+											"transitions": [
+												{
+													"default": "query.is_alive"
+												}
+											]
+										}
+									}
+								},
+								"key": "states",
+								"children": [
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"dead": "!query.is_alive"
+													},
+													{
+														"on_light_12": "query.variant == 1"
+													}
+												]
+											},
+											"on_light_12": {
+												"on_entry": [
+													"/tag @p add light12"
+												],
+												"on_exit": [
+													"/function disable_light"
+												],
+												"transitions": [
+													{
+														"default": "query.variant == 0"
+													}
+												]
+											},
+											"dead": {
+												"on_entry": [
+													"/function disable_light"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											}
+										},
+										"key": "default",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"dead": "!query.is_alive"
+														},
+														{
+															"on_light_12": "query.variant == 1"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"dead": "!query.is_alive"
+															},
+															{
+																"on_light_12": "query.variant == 1"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"dead": "!query.is_alive"
+														}
+													},
+													{
+														"open": [
+															{
+																"dead": "!query.is_alive"
+															},
+															{
+																"on_light_12": "query.variant == 1"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"on_light_12": "query.variant == 1"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"dead": "!query.is_alive"
+													},
+													{
+														"on_light_12": "query.variant == 1"
+													}
+												]
+											},
+											"on_light_12": {
+												"on_entry": [
+													"/tag @p add light12"
+												],
+												"on_exit": [
+													"/function disable_light"
+												],
+												"transitions": [
+													{
+														"default": "query.variant == 0"
+													}
+												]
+											},
+											"dead": {
+												"on_entry": [
+													"/function disable_light"
+												],
+												"transitions": [
+													{
+														"default": "query.is_alive"
+													}
+												]
+											}
+										},
+										"key": "on_light_12",
+										"children": [
+											{
+												"open": {
+													"on_entry": [
+														"/tag @p add light12"
+													],
+													"on_exit": [
+														"/function disable_light"
+													],
+													"transitions": [
+														{
+															"default": "query.variant == 0"
+														}
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/tag @p add light12"
+												]
+											},
+											{
+												"open": {
+													"on_entry": [
+														"/tag @p add light12"
+													],
+													"on_exit": [
+														"/function disable_light"
+													],
+													"transitions": [
+														{
+															"default": "query.variant == 0"
+														}
+													]
+												},
+												"key": "on_exit",
+												"is_minified": true,
+												"children": [
+													"/function disable_light"
+												]
+											},
+											{
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.variant == 0"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.variant == 0"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"key": "dead",
+										"children": [
+											{
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/function disable_light"
+												]
+											},
+											{
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.is_alive"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.is_alive"
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

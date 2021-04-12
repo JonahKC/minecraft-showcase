@@ -1,0 +1,431 @@
+{
+	"file_path": "C:\\Users\\nebye\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Useful Tweaks\\bridge\\plugins\\holding_item_test\\snippets\\holding_item.json",
+	"file_type": "unknown",
+	"format_version": 1,
+	"file_uuid": "0da2144f_48ab_4cb1_b04a_5446ba098688",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "entity",
+				"key": "file_type"
+			},
+			{
+				"data": "Is holding minecraft:dirt?",
+				"key": "display_name"
+			},
+			{
+				"open": {
+					"file_type": "entity",
+					"display_name": "Is holding minecraft:dirt?",
+					"template": {
+						"force_default_scope": true,
+						"data_path": "minecraft:entity",
+						"data": {
+							"components": {
+								"minecraft:environment_sensor": {
+									"triggers": [
+										{
+											"filters": {
+												"test": "has_equipment",
+												"domain": "hand",
+												"value": "minecraft:dirt",
+												"operator": "equals"
+											},
+											"event": "on_holding_item"
+										},
+										{
+											"filters": {
+												"test": "has_equipment",
+												"domain": "hand",
+												"value": "minecraft:dirt",
+												"operator": "not"
+											},
+											"event": "on_not_holding_item"
+										}
+									]
+								}
+							},
+							"events": {
+								"on_holding_item": {
+									"add": {
+										"component_groups": [
+											"holding_item"
+										]
+									},
+									"remove": {
+										"component_groups": [
+											"not_holding_item"
+										]
+									}
+								},
+								"on_not_holding_item": {
+									"remove": {
+										"component_groups": [
+											"holding_item"
+										]
+									},
+									"add": {
+										"component_groups": [
+											"not_holding_item"
+										]
+									}
+								}
+							},
+							"component_groups": {
+								"holding_item": {
+									"minecraft:variant": {
+										"value": 1
+									}
+								},
+								"not_holding_item": {
+									"minecraft:variant": {
+										"value": 0
+									}
+								}
+							}
+						}
+					}
+				},
+				"key": "template",
+				"children": [
+					{
+						"data": "true",
+						"key": "force_default_scope"
+					},
+					{
+						"data": "minecraft:entity",
+						"key": "data_path"
+					},
+					{
+						"open": {
+							"force_default_scope": true,
+							"data_path": "minecraft:entity",
+							"data": {
+								"components": {
+									"minecraft:environment_sensor": {
+										"triggers": [
+											{
+												"filters": {
+													"test": "has_equipment",
+													"domain": "hand",
+													"value": "minecraft:dirt",
+													"operator": "equals"
+												},
+												"event": "on_holding_item"
+											},
+											{
+												"filters": {
+													"test": "has_equipment",
+													"domain": "hand",
+													"value": "minecraft:dirt",
+													"operator": "not"
+												},
+												"event": "on_not_holding_item"
+											}
+										]
+									}
+								},
+								"events": {
+									"on_holding_item": {
+										"add": {
+											"component_groups": [
+												"holding_item"
+											]
+										},
+										"remove": {
+											"component_groups": [
+												"not_holding_item"
+											]
+										}
+									},
+									"on_not_holding_item": {
+										"remove": {
+											"component_groups": [
+												"holding_item"
+											]
+										},
+										"add": {
+											"component_groups": [
+												"not_holding_item"
+											]
+										}
+									}
+								},
+								"component_groups": {
+									"holding_item": {
+										"minecraft:variant": {
+											"value": 1
+										}
+									},
+									"not_holding_item": {
+										"minecraft:variant": {
+											"value": 0
+										}
+									}
+								}
+							}
+						},
+						"key": "data",
+						"children": [
+							{
+								"open": {
+									"components": {
+										"minecraft:environment_sensor": {
+											"triggers": [
+												{
+													"filters": {
+														"test": "has_equipment",
+														"domain": "hand",
+														"value": "minecraft:dirt",
+														"operator": "equals"
+													},
+													"event": "on_holding_item"
+												},
+												{
+													"filters": {
+														"test": "has_equipment",
+														"domain": "hand",
+														"value": "minecraft:dirt",
+														"operator": "not"
+													},
+													"event": "on_not_holding_item"
+												}
+											]
+										}
+									},
+									"events": {
+										"on_holding_item": {
+											"add": {
+												"component_groups": [
+													"holding_item"
+												]
+											},
+											"remove": {
+												"component_groups": [
+													"not_holding_item"
+												]
+											}
+										},
+										"on_not_holding_item": {
+											"remove": {
+												"component_groups": [
+													"holding_item"
+												]
+											},
+											"add": {
+												"component_groups": [
+													"not_holding_item"
+												]
+											}
+										}
+									},
+									"component_groups": {
+										"holding_item": {
+											"minecraft:variant": {
+												"value": 1
+											}
+										},
+										"not_holding_item": {
+											"minecraft:variant": {
+												"value": 0
+											}
+										}
+									}
+								},
+								"key": "components",
+								"children": [
+									{
+										"open": {
+											"minecraft:environment_sensor": {
+												"triggers": [
+													{
+														"filters": {
+															"test": "has_equipment",
+															"domain": "hand",
+															"value": "minecraft:dirt",
+															"operator": "equals"
+														},
+														"event": "on_holding_item"
+													},
+													{
+														"filters": {
+															"test": "has_equipment",
+															"domain": "hand",
+															"value": "minecraft:dirt",
+															"operator": "not"
+														},
+														"event": "on_not_holding_item"
+													}
+												]
+											}
+										},
+										"key": "minecraft:environment_sensor",
+										"children": [
+											{
+												"open": {
+													"triggers": [
+														{
+															"filters": {
+																"test": "has_equipment",
+																"domain": "hand",
+																"value": "minecraft:dirt",
+																"operator": "equals"
+															},
+															"event": "on_holding_item"
+														},
+														{
+															"filters": {
+																"test": "has_equipment",
+																"domain": "hand",
+																"value": "minecraft:dirt",
+																"operator": "not"
+															},
+															"event": "on_not_holding_item"
+														}
+													]
+												},
+												"key": "triggers",
+												"is_minified": true,
+												"children": [
+													{
+														"filters": {
+															"test": "has_equipment",
+															"domain": "hand",
+															"value": "minecraft:dirt",
+															"operator": "equals"
+														},
+														"event": "on_holding_item"
+													},
+													{
+														"filters": {
+															"test": "has_equipment",
+															"domain": "hand",
+															"value": "minecraft:dirt",
+															"operator": "not"
+														},
+														"event": "on_not_holding_item"
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"components": {
+										"minecraft:environment_sensor": {
+											"triggers": [
+												{
+													"filters": {
+														"test": "has_equipment",
+														"domain": "hand",
+														"value": "minecraft:dirt",
+														"operator": "equals"
+													},
+													"event": "on_holding_item"
+												},
+												{
+													"filters": {
+														"test": "has_equipment",
+														"domain": "hand",
+														"value": "minecraft:dirt",
+														"operator": "not"
+													},
+													"event": "on_not_holding_item"
+												}
+											]
+										}
+									},
+									"events": {
+										"on_holding_item": {
+											"add": {
+												"component_groups": [
+													"holding_item"
+												]
+											},
+											"remove": {
+												"component_groups": [
+													"not_holding_item"
+												]
+											}
+										},
+										"on_not_holding_item": {
+											"remove": {
+												"component_groups": [
+													"holding_item"
+												]
+											},
+											"add": {
+												"component_groups": [
+													"not_holding_item"
+												]
+											}
+										}
+									},
+									"component_groups": {
+										"holding_item": {
+											"minecraft:variant": {
+												"value": 1
+											}
+										},
+										"not_holding_item": {
+											"minecraft:variant": {
+												"value": 0
+											}
+										}
+									}
+								},
+								"key": "events",
+								"is_minified": true,
+								"children": {
+									"on_holding_item": {
+										"add": {
+											"component_groups": [
+												"holding_item"
+											]
+										},
+										"remove": {
+											"component_groups": [
+												"not_holding_item"
+											]
+										}
+									},
+									"on_not_holding_item": {
+										"remove": {
+											"component_groups": [
+												"holding_item"
+											]
+										},
+										"add": {
+											"component_groups": [
+												"not_holding_item"
+											]
+										}
+									}
+								}
+							},
+							{
+								"key": "component_groups",
+								"is_minified": true,
+								"children": {
+									"holding_item": {
+										"minecraft:variant": {
+											"value": 1
+										}
+									},
+									"not_holding_item": {
+										"minecraft:variant": {
+											"value": 0
+										}
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

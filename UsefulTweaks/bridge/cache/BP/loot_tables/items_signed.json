@@ -1,0 +1,361 @@
+{
+	"file_path": "C:\\Users\\nebye\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Useful Tweaks\\loot_tables\\items_signed.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "03db5e30_92a4_49c7_be52_0af888cff482",
+	"file_version": 9,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"pools": [
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"name": "minecraft:netherite_sword",
+									"functions": [
+										{
+											"function": "set_lore",
+											"lore": [
+												"Signed by:",
+												"§r§l§6Callum"
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"name": "minecraft:netherite_pickaxe",
+									"functions": [
+										{
+											"function": "set_lore",
+											"lore": [
+												"Signed by:",
+												"§r§l§6Callum"
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				"key": "pools",
+				"children": [
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "minecraft:netherite_sword",
+										"functions": [
+											{
+												"function": "set_lore",
+												"lore": [
+													"Signed by:",
+													"§r§l§6Callum"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "minecraft:netherite_pickaxe",
+										"functions": [
+											{
+												"function": "set_lore",
+												"lore": [
+													"Signed by:",
+													"§r§l§6Callum"
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"name": "minecraft:netherite_sword",
+											"functions": [
+												{
+													"function": "set_lore",
+													"lore": [
+														"Signed by:",
+														"§r§l§6Callum"
+													]
+												}
+											]
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "minecraft:netherite_sword",
+												"functions": [
+													{
+														"function": "set_lore",
+														"lore": [
+															"Signed by:",
+															"§r§l§6Callum"
+														]
+													}
+												]
+											}
+										],
+										"children": [
+											{
+												"data": "item",
+												"key": "type"
+											},
+											{
+												"open": {
+													"type": "item",
+													"name": "minecraft:netherite_sword",
+													"functions": [
+														{
+															"function": "set_lore",
+															"lore": [
+																"Signed by:",
+																"§r§l§6Callum"
+															]
+														}
+													]
+												},
+												"data": "minecraft:netherite_sword",
+												"key": "name"
+											},
+											{
+												"open": {
+													"type": "item",
+													"name": "minecraft:netherite_sword",
+													"functions": [
+														{
+															"function": "set_lore",
+															"lore": [
+																"Signed by:",
+																"§r§l§6Callum"
+															]
+														}
+													]
+												},
+												"key": "functions",
+												"children": [
+													{
+														"open": [
+															{
+																"function": "set_lore",
+																"lore": [
+																	"Signed by:",
+																	"§r§l§6Callum"
+																]
+															}
+														],
+														"children": [
+															{
+																"data": "set_lore",
+																"key": "function"
+															},
+															{
+																"open": {
+																	"function": "set_lore",
+																	"lore": [
+																		"Signed by:",
+																		"§r§l§6Callum"
+																	]
+																},
+																"key": "lore",
+																"is_minified": true,
+																"children": [
+																	"Signed by:",
+																	"§r§l§6Callum"
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "minecraft:netherite_sword",
+										"functions": [
+											{
+												"function": "set_lore",
+												"lore": [
+													"Signed by:",
+													"§r§l§6Callum"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "minecraft:netherite_pickaxe",
+										"functions": [
+											{
+												"function": "set_lore",
+												"lore": [
+													"Signed by:",
+													"§r§l§6Callum"
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"name": "minecraft:netherite_pickaxe",
+											"functions": [
+												{
+													"function": "set_lore",
+													"lore": [
+														"Signed by:",
+														"§r§l§6Callum"
+													]
+												}
+											]
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "minecraft:netherite_pickaxe",
+												"functions": [
+													{
+														"function": "set_lore",
+														"lore": [
+															"Signed by:",
+															"§r§l§6Callum"
+														]
+													}
+												]
+											}
+										],
+										"children": [
+											{
+												"data": "item",
+												"key": "type"
+											},
+											{
+												"data": "minecraft:netherite_pickaxe",
+												"key": "name"
+											},
+											{
+												"open": {
+													"type": "item",
+													"name": "minecraft:netherite_pickaxe",
+													"functions": [
+														{
+															"function": "set_lore",
+															"lore": [
+																"Signed by:",
+																"§r§l§6Callum"
+															]
+														}
+													]
+												},
+												"key": "functions",
+												"children": [
+													{
+														"open": [
+															{
+																"function": "set_lore",
+																"lore": [
+																	"Signed by:",
+																	"§r§l§6Callum"
+																]
+															}
+														],
+														"children": [
+															{
+																"data": "set_lore",
+																"key": "function"
+															},
+															{
+																"open": {
+																	"function": "set_lore",
+																	"lore": [
+																		"Signed by:",
+																		"§r§l§6Callum"
+																	]
+																},
+																"key": "lore",
+																"is_minified": true,
+																"children": [
+																	"Signed by:",
+																	"§r§l§6Callum"
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,26 @@
+#bridge-file-version: #2
+execute GingerFungus524 ~ ~ ~ tp @e[tag=a,c=1] ~ ~-1.51 ~ facing ^ ^1 ^10
+execute GingerFungus524 ~ ~ ~ tp @e[tag=a,c=1] ~ ~-1.51 ~ facing ^ ^1 ^10
+execute GingerFungus524 ~ ~ ~ tp @e[tag=a,c=1] ~ ~-1.51 ~ facing ^ ^1 ^10
+execute GingerFungus524 ~ ~ ~ tp @e[tag=a,c=1] ~ ~-1.51 ~ facing ^ ^1 ^10
+execute GingerFungus524 ~ ~ ~ tp @e[tag=a,c=1] ~ ~-1.51 ~ facing ^ ^1 ^10
+execute GingerFungus524 ~ ~ ~ tp @e[tag=a,c=1] ~ ~-1.51 ~ facing ^ ^1 ^10
+execute GingerFungus524 ~ ~ ~ tp @e[tag=a,c=1] ~ ~-1.51 ~ facing ^ ^1 ^10
+execute GingerFungus524 ~ ~ ~ tp @e[tag=a,c=1] ~ ~-1.51 ~ facing ^ ^1 ^10
+execute GingerFungus524 ~ ~ ~ tp @e[tag=a,c=1] ~ ~-1.51 ~ facing ^ ^1 ^10
+execute GingerFungus524 ~ ~ ~ tp @e[tag=a,c=1] ~ ~-1.51 ~ facing ^ ^1 ^10
+execute GingerFungus524 ~ ~ ~ tp @e[tag=a,c=1] ~ ~-1.51 ~ facing ^ ^1 ^10
+execute GingerFungus524 ~ ~ ~ tp @e[tag=a,c=1] ~ ~-1.51 ~ facing ^ ^1 ^10
+execute GingerFungus524 ~ ~ ~ tp @e[tag=a,c=1] ~ ~-1.51 ~ facing ^ ^1 ^10
+execute GingerFungus524 ~ ~ ~ tp @e[tag=a,c=1] ~ ~-1.51 ~ facing ^ ^1 ^10
+execute GingerFungus524 ~ ~ ~ tp @e[tag=a,c=1] ~ ~-1.51 ~ facing ^ ^1 ^10
+execute GingerFungus524 ~ ~ ~ tp @e[tag=a,c=1] ~ ~-1.51 ~ facing ^ ^1 ^10
+execute GingerFungus524 ~ ~ ~ tp @e[tag=a,c=1] ~ ~-1.51 ~ facing ^ ^1 ^10
+execute GingerFungus524 ~ ~ ~ tp @e[tag=a,c=1] ~ ~-1.51 ~ facing ^ ^1 ^10
+execute GingerFungus524 ~ ~ ~ tp @e[tag=a,c=1] ~ ~-1.51 ~ facing ^ ^1 ^10
+execute GingerFungus524 ~ ~ ~ tp @e[tag=a,c=1] ~ ~-1.51 ~ facing ^ ^1 ^10
+execute GingerFungus524 ~ ~ ~ tp @e[tag=a,c=1] ~ ~-1.51 ~ facing ^ ^1 ^10
+execute GingerFungus524 ~ ~ ~ tp @e[tag=a,c=1] ~ ~-1.51 ~ facing ^ ^1 ^10
+execute GingerFungus524 ~ ~ ~ tp @e[tag=a,c=1] ~ ~-1.51 ~ facing ^ ^1 ^10
+execute GingerFungus524 ~ ~ ~ tp @e[tag=a,c=1] ~ ~-1.51 ~ facing ^ ^1 ^10
+execute GingerFungus524 ~ ~ ~ tp @e[tag=a,c=1] ~ ~-1.51 ~ facing ^ ^1 ^10

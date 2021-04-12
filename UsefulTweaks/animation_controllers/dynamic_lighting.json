@@ -1,0 +1,44 @@
+//bridge-file-version: #32
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.light": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"dead": "!query.is_alive"
+						},
+						{
+							"on_light_12": "query.variant == 1"
+						}
+					]
+				},
+				"on_light_12": {
+					"on_entry": [
+						"/tag @p add light12"
+					],
+					"on_exit": [
+						"/function disable_light"
+					],
+					"transitions": [
+						{
+							"default": "query.variant == 0"
+						}
+					]
+				},
+				"dead": {
+					"on_entry": [
+						"/function disable_light"
+					],
+					"transitions": [
+						{
+							"default": "query.is_alive"
+						}
+					]
+				}
+			}
+		}
+	}
+}

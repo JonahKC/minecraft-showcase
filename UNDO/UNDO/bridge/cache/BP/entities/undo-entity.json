@@ -1,0 +1,217 @@
+{
+	"file_path": "C:\\Users\\nebye\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\UNDO\\entities\\undo-entity.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "51f8b322_9b93_400f_b2de_cf2f2c97fe69",
+	"file_version": 9,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.200",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.200",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "tnp:undo-entity",
+							"is_spawnable": false,
+							"is_summonable": true
+						},
+						"components": {
+							"minecraft:damage_sensor": {
+								"triggers": [
+									{
+										"cause": "all",
+										"deals_damage": false
+									}
+								]
+							},
+							"minecraft:health": {
+								"value": 1,
+								"max": 1
+							},
+							"minecraft:physics": {
+								"has_gravity": false,
+								"has_collision": false
+							},
+							"minecraft:knockback_resistance": {
+								"value": 1
+							}
+						}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "tnp:undo-entity",
+								"is_spawnable": false,
+								"is_summonable": true
+							},
+							"components": {
+								"minecraft:damage_sensor": {
+									"triggers": [
+										{
+											"cause": "all",
+											"deals_damage": false
+										}
+									]
+								},
+								"minecraft:health": {
+									"value": 1,
+									"max": 1
+								},
+								"minecraft:physics": {
+									"has_gravity": false,
+									"has_collision": false
+								},
+								"minecraft:knockback_resistance": {
+									"value": 1
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "tnp:undo-entity",
+							"is_spawnable": false,
+							"is_summonable": true
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "tnp:undo-entity",
+								"is_spawnable": false,
+								"is_summonable": true
+							},
+							"components": {
+								"minecraft:damage_sensor": {
+									"triggers": [
+										{
+											"cause": "all",
+											"deals_damage": false
+										}
+									]
+								},
+								"minecraft:health": {
+									"value": 1,
+									"max": 1
+								},
+								"minecraft:physics": {
+									"has_gravity": false,
+									"has_collision": false
+								},
+								"minecraft:knockback_resistance": {
+									"value": 1
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:damage_sensor",
+								"children": [
+									{
+										"open": {
+											"triggers": [
+												{
+													"cause": "all",
+													"deals_damage": false
+												}
+											]
+										},
+										"key": "triggers",
+										"children": [
+											{
+												"open": [
+													{
+														"cause": "all",
+														"deals_damage": false
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"cause": "all",
+													"deals_damage": false
+												}
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "minecraft:health",
+								"is_minified": true,
+								"children": {
+									"value": 1,
+									"max": 1
+								}
+							},
+							{
+								"open": {
+									"minecraft:damage_sensor": {
+										"triggers": [
+											{
+												"cause": "all",
+												"deals_damage": false
+											}
+										]
+									},
+									"minecraft:health": {
+										"value": 1,
+										"max": 1
+									},
+									"minecraft:physics": {
+										"has_gravity": false,
+										"has_collision": false
+									},
+									"minecraft:knockback_resistance": {
+										"value": 1
+									}
+								},
+								"key": "minecraft:physics",
+								"is_minified": true,
+								"children": {
+									"has_gravity": false,
+									"has_collision": false
+								}
+							},
+							{
+								"open": {
+									"minecraft:damage_sensor": {
+										"triggers": [
+											{
+												"cause": "all",
+												"deals_damage": false
+											}
+										]
+									},
+									"minecraft:health": {
+										"value": 1,
+										"max": 1
+									},
+									"minecraft:physics": {
+										"has_gravity": false,
+										"has_collision": false
+									},
+									"minecraft:knockback_resistance": {
+										"value": 1
+									}
+								},
+								"key": "minecraft:knockback_resistance",
+								"is_minified": true,
+								"children": {
+									"value": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,72 @@
+{
+	"file_path": "C:\\Users\\nebye\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Useful Tweaks Resources/entity/item_spawner.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "5bb8b92f_a9c3_4144_9865_ec9098660180",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "tnp:signed_items",
+							"spawn_egg": {
+								"base_color": "#000000",
+								"overlay_color": "#1F1017"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "tnp:signed_items",
+								"spawn_egg": {
+									"base_color": "#000000",
+									"overlay_color": "#1F1017"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "tnp:signed_items",
+									"spawn_egg": {
+										"base_color": "#000000",
+										"overlay_color": "#1F1017"
+									}
+								},
+								"data": "tnp:signed_items",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "tnp:signed_items",
+									"spawn_egg": {
+										"base_color": "#000000",
+										"overlay_color": "#1F1017"
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"base_color": "#000000",
+									"overlay_color": "#1F1017"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

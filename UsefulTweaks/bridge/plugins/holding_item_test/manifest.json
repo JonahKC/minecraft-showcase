@@ -1,0 +1,8 @@
+{
+	"author": "One_Lone_Turnip",
+	"name": "Holding item sensor for player.json",
+	"version": "1.0.0",
+	"id": "1c662798-be4b-494d-b912-09ee9df15df7",
+    "description": "Variant changes to 1 when you are holding minecraft:dirt, this can be changed",
+	"api_version": 1
+}

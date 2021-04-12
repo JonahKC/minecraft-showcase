@@ -1,0 +1,7 @@
+//bridge-file-version: #5
+{
+	"values": [
+		"dynamic_light_update",
+		"item_light_torch"
+	]
+}

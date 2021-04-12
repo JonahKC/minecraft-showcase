@@ -1,0 +1,41 @@
+//bridge-file-version: #9
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "set_lore",
+							"lore": [
+								"Signed by:",
+								"§r§l§6Callum"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:netherite_pickaxe",
+					"functions": [
+						{
+							"function": "set_lore",
+							"lore": [
+								"Signed by:",
+								"§r§l§6Callum"
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
