@@ -1,6 +1,6 @@
 # Here's Some Examples of What We've Done:
 
-@Turnip1234 made a mod for the Forge mod loader on Java Edition, adding an item called the "Tuiver," which is an effective method of storing up to four stacks of torches for your mining sessions. The code is all original.
+@Turnip1234 made a mod (with the textures being drawn by a friend) for the Forge mod loader on Java Edition, adding an item called the "Tuiver," which is an effective method of storing up to four stacks of torches for your mining sessions. The code is all original.
 ![Example of @Turnip123's Java Edition mod CommunalRewards](https://github.com/JonahKC/minecraft-showcase/blob/da171ab99a4c09a39d251be2727a823908a0dc15/tuiver.png)
 
 #### In terms of bedrock content, we've cooperated on numerous things including:
