@@ -8,4 +8,5 @@
 - Another behavior pack that adds small, simple things inspired by [ItemBound](https://www.curseforge.com/minecraft/texture-packs/itembound-16x) for Java Edition. Examples include dynamic lighting when holding torches, creepers drop creeper pelt, pigs drop pig leather, and zombies drop digested flesh. It also adds custom death messages, as a replacement for the vanilla ones.
 
 ## We've both recently been cooperating on an extremely work-in-progress minigame server with support for Java AND Bedrock players with [GeyserMC](https://geysermc.org/)
-![Example of the main lobby, and particle trails]()
+![Example of the main lobby](https://github.com/JonahKC/minecraft-showcase/blob/7b9aab14bebf9589f536e01a1521cfe0e46b506d/2021-04-11_21.56.58.png)
+![particle trails]()
