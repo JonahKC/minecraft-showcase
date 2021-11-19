@@ -14,5 +14,8 @@ Here's a particle trail:
 
 ## Education Edition
 - @JonahKC built a historically accurate to-scale model of the Shirtwaist Factory Fire, and the buildings around it. @Turnip1234 brought it to life with an interactive system where after you talk to enough people (with real names of people who worked there and dialouge based off of books, quotes, and other historical documents), the building catches on fire.
-- ![]()
-- ![]()
+- ![Exterior](https://github.com/JonahKC/minecraft-showcase/raw/94cc1442f02320d50fe37cd9387714f596124bdf/Images/Triangle1.png)
+- ![Interior](https://github.com/JonahKC/minecraft-showcase/blob/main/Images/Triangle2.png?raw=true)
+- ![Example Dialogue with an NPC](https://github.com/JonahKC/minecraft-showcase/blob/main/Images/Triangle3.png?raw=true)
+- ![Another Example of Dialogue with an NPC](https://github.com/JonahKC/minecraft-showcase/blob/main/Images/Triangle4.png?raw=true)
+- ![Building on Fire](https://github.com/JonahKC/minecraft-showcase/blob/main/Images/Triangle5.png?raw=true)
